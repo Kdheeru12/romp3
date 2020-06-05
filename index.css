@@ -215,6 +215,9 @@ img{
     text-transform:uppercase;
     margin: 1.6rem 0;
 }
+.activities-grid-item p{
+    padding-bottom: 40px;
+}
 
 .created{
     width: 100%;
@@ -371,10 +374,19 @@ footer{
     .create{
         transform: translateY(50%);
     }
+    .activities-grid-item{
+        border: plum 1px solid;
+        border-radius: 20px;
+
+    }
 }
 @media screen and (min-width:1200px){
     .section{
         height: 75vh;
     }
-
+    .activities-grid-item{
+        border: plum 1px solid;
+        border-radius: 20px;
+        
+    }
 }
