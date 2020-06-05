@@ -379,6 +379,17 @@ footer{
         border-radius: 20px;
 
     }
+    .activities-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(35rem,1fr));
+        grid-gap:4rem;
+    }
+    .activities-grid-item p{
+        margin-top: -15px;
+    }
+    .activities-grid-item h1{
+        margin-top: 0px;
+    }
 }
 @media screen and (min-width:1200px){
     .section{
@@ -388,5 +399,16 @@ footer{
         border: plum 1px solid;
         border-radius: 20px;
         
+    }
+    .activities-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(35rem,1fr));
+        grid-gap:4rem;
+    }
+    .activities-grid-item p{
+        margin-top: -15px;
+    }
+    .activities-grid-item h1{
+        margin-top: 0px;
     }
 }
